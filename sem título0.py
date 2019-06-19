@@ -33,8 +33,8 @@ dataset.drop('Unnamed: 0',axis=1,inplace=True)
  #Salvando em um novo CSV
  dataset.to_csv("ALL_FILTRADOS_BACKUP.csv")
  
- dataset.drop('Unnamed: 0.1',axis=1,inplace=True)
+ dataset.drop('Unnamed: 0',axis=1,inplace=True)
  
  
- dataset.to_csv("ALL_FILTRADOS.csv")
+ dataset.to_csv("ALL_FILTRADOS.csv",index=False)
  
